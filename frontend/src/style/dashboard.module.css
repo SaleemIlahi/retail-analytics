@@ -1,0 +1,129 @@
+.dashboard_container {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.dashboard_layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid; */
+}
+
+.dashboard_filter {
+  flex-basis: 15%;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f3;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.dashboard_analytic {
+  flex-basis: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard_analytic_container_graph {
+  flex-basis: 30%;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard_analytic_graph_canavas {
+  flex-basis: 49.3%;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f3;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboard_analytic_container_table {
+  flex-basis: 62%;
+  width: 100%;
+  height: 100%;
+  background: #f1f1f3;
+  overflow-y: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard_analytic_container_table_pagination{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+.pagination_btn{
+  width: 80px;
+  height: 30px;
+  background:#007bff;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination_no{
+  width: 40px;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+  border-radius: 4px;
+}
+
+.dashboard_analytic_container_table::-webkit-scrollbar {
+  display: none;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,th{
+  padding: 10px 7px;
+  text-align: center;
+}
+
+th > span {
+  margin: 0 4px;
+}
+
+td{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-family: "Space Mono", monospace;
+}
+
+td span {
+  color: rgba(0,0,0,0.8);
+  font-weight: 400;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #f1f1f3;
+  box-shadow: 2px 0 8px 1px rgba(0,0,0,0.5);
+}

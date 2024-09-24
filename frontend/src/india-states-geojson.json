@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [77.059, 28.616],
+              [77.241, 28.578],
+              [77.345, 28.692],
+              [77.278, 28.782],
+              [77.059, 28.616]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Delhi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [80.031, 12.492],
+              [80.248, 12.455],
+              [80.385, 12.564],
+              [80.272, 12.658],
+              [80.031, 12.492]
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Tamil Nadu"
+        }
+      }
+    ]
+  }
+  

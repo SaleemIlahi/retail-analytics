@@ -1,0 +1,20 @@
+.state-name {
+    position: relative; /* For the arrow positioning */
+    background-color: white; /* Background for visibility */
+    border: 1px solid #ccc; /* Border for the label */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px;
+    z-index: 10; /* Ensure it's on top */
+  }
+  
+  .state-name::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Centered horizontally */
+    top: 100%; /* Positioned below the label */
+    margin-left: -5px; /* Center the arrow */
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent; /* Arrow pointing down */
+  }
+  
